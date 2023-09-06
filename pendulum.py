@@ -54,7 +54,7 @@ def update_parameters(*args):
     num_pend_label.config(text=f"Number of Pendulums: {int(NUM_PENDULUMS)}")
     
 num_pend_label = ttk.Label(root, text=f"Number of Pendulums: {int(NUM_PENDULUMS)}")
-num_pend_slider = ttk.Scale(root, variable=num_pend_var, from_=1, to=8, orient="horizontal")
+num_pend_slider = ttk.Scale(root, variable=num_pend_var, from_=1, to=12, orient="horizontal")
 
 length_label = ttk.Label(root, text=f"Pendulum Length (pixels): {int(PENDULUM_LENGTH)}")
 length_slider = ttk.Scale(root, variable=length_var, from_=50, to=300, orient="horizontal")
